@@ -5,7 +5,7 @@ import FeaturedProducts from './components/FeaturedProducts';
 function App() {
   return (
     <>
-      <main className="App">
+      <main className="App overflow-hidden">
         <HeroBanner />
         {/* Other components will go here */}
         <FeaturedProducts />
